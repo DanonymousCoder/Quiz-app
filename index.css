@@ -8,7 +8,7 @@
 }
 select {
     width: 85%;
-    border: 2px solid grey;
+    border: 1px solid grey;
     border-radius: 7px;
     height: 35px;
 }
