@@ -1,6 +1,6 @@
 let form1 = document.getElementById("form1");
-let form2 = document.getElementById("form1");
-let form3 = document.getElementById("form1");
+let form2 = document.getElementById("form2");
+let form3 = document.getElementById("form3");
 
 
 
