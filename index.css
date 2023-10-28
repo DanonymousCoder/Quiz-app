@@ -75,4 +75,5 @@ form button {
     position: absolute;
     height: 100%;
     width: 120px;
+    background:  linear-gradient( to right, #ff105f, #ffad06);
 }
