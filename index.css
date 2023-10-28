@@ -22,3 +22,8 @@ h3 {
     margin-bottom: 40px;
     color: #777;
 }
+.container form {
+    width: 80%;
+    position: absolute;
+    top: 100px;
+}
