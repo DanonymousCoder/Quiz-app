@@ -32,4 +32,8 @@ form .box select {
     width: 100%;
     padding: 10px 5px;
     margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
 }
