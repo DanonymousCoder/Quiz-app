@@ -77,3 +77,10 @@ form button {
     width: 120px;
     background:  linear-gradient( to right, #ff105f, #ffad06);
 }
+#progress::after {
+    content: ' ';
+    height: 0;
+    width: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+}
