@@ -8,7 +8,8 @@ let back1 = document.getElementById("back1");
 let back2 = document.getElementById("back2");
 
 next1.onclick = function() {
-    form1.style.left = "-450px"
+    form1.style.left = "-450px";
+    form2.style.left = "40px"
 }
 
 let questions = [
