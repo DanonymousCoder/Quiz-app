@@ -56,4 +56,5 @@ form button {
 .step-row {
     width: 360px;
     height: 40px;
+    margin: 0 autoa;
 }
