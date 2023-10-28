@@ -28,3 +28,8 @@ h3 {
     top: 100px;
     left: 40px;
 }
+form .box select {
+    width: 100%;
+    margin: 10px 5px;
+    padding: 5px 0;
+}
