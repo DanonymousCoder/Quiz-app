@@ -25,4 +25,4 @@ function displayQuiz() {
 };
 
 
-quizcont.innerhtml = displayQuiz();
+quizcont.innerhtml = displayQuiz.join(" ");
