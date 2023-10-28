@@ -53,6 +53,9 @@ form button {
     color: #fff;
     cursor: pointer;
 }
+#form2 {
+    left: 450px;
+}
 .step-row {
     width: 360px;
     height: 40px;
