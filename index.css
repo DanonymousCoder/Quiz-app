@@ -71,3 +71,7 @@ form button {
     color: #333;
     position: relative;
 }
+#progress {
+    position: absolute;
+    height: 100%;
+}
