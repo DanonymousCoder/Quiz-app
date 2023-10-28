@@ -19,6 +19,10 @@ next2.onclick = function() {
     form1.style.left = "-450px";
     form2.style.left = "40px"
 }
+back2.onclick = function() {
+    form1.style.left = "40px";
+    form2.style.left = "450px"
+}
 
 let questions = [
     {
