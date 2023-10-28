@@ -16,10 +16,13 @@ let questions = [
     },
 ]
 
-let quizCont = document.querySelector(".quiz-cont");
+let quizcont = document.querySelector(".quiz-cont");
 
-function DisplayQuiz() {
+function displayQuiz() {
     return `
         Hi
     `
-}
+};
+
+
+quizcont.innerhtml = displayQuiz();
