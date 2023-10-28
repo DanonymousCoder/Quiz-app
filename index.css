@@ -64,4 +64,6 @@ form button {
 }
 .step-col {
     width: 120px;
+    text-align: center;
+    color: #333;
 }
