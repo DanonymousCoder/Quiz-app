@@ -74,4 +74,5 @@ form button {
 #progress {
     position: absolute;
     height: 100%;
+    width: 120px;
 }
