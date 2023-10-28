@@ -7,6 +7,10 @@ let next2 = document.getElementById("next2");
 let back1 = document.getElementById("back1");
 let back2 = document.getElementById("back2");
 
+next1.onclick = function() {
+    form1.style.left = "-450px"
+}
+
 let questions = [
     {
         question: "Which company produces the iPhone?",
