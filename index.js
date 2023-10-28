@@ -19,5 +19,7 @@ let questions = [
 let quizCont = document.querySelector(".quiz-cont");
 
 function DisplayQuiz() {
-    
+    return `
+        Hi
+    `
 }
