@@ -66,4 +66,4 @@ let quizArray = questions.map((quiz) => {
     `
 })
 
-h4.innerHTML = quizArray;
+h4.innerHTML = quizArray.join(" ");
