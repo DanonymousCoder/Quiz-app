@@ -50,5 +50,5 @@ let questions = [
     },
 ]
 
-let quizcont = document.querySelector(".container");
+let h4 = document.querySelector(".h4");
 
