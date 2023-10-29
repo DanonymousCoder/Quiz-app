@@ -54,7 +54,7 @@ let h4 = document.querySelector(".h4");
 
 let quizArray = questions.map((quiz) => {
     return `
-    <h4>${questions.question}</h4>
+    <h4>${quiz.question}</h4>
     `
 })
 
