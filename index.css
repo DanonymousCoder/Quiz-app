@@ -26,6 +26,7 @@ h3 {
 }
 .container form {
     width: 80%;
+    height: 90%;
     position: absolute;
     top: 100px;
     left: 40px;
