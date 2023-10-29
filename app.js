@@ -58,15 +58,15 @@ let quizArray = questions.map((quiz) => {
     <p class="h4">${quiz.question}</p>
     <select name="" id="" style="width: 100%; padding: 10px 5px;margin: 5px 0;border: 0;border-bottom: 1px solid #999; outline: none;background: transparent;">
         <option value="" disabled>Select a value</option>
-        <option value=""></option>
-        <option value=""></option>
-        <option value=""></option>
+        ${quiz.options.map((option) => {
+            return `<option value=${option}>${option}</option>`;
+          })}
     </select>
   </div>
     `
 })
 
-h4.innerHTML = `${quizArray.join (" ") }<div class="btn-box">
+h4.innerHTML = `${quizArray.join (" ") } <div class="btn-box">
 <button type="button" id="back1">Previous</button>
 <button type="button" id="next2">Next</button>
-</div> ;
+</div>` ;
