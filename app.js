@@ -52,9 +52,9 @@ let questions = [
 let quizcont = document.querySelector(".quiz-cont");
 
 function displayQuiz() {
-    return `
-        Hi
-    `
+    let corrects = 50;
+    let wrong = 0;
+    let result = 0;
 };
 
 
