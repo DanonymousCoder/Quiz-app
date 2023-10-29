@@ -54,20 +54,7 @@ let h4 = document.querySelector(".h4");
 
 let quizArray = questions.map((quiz) => {
     return `
-    <form action="" id="form2">
-            <h3>Quiz App</h3>
-          <div class="box">
-            <h4 class="h4">What is ..........................?</h4>
-            <select name="" id="">
-                <option value="" disabled>Select a value</option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-            </select>
-          </div>
-      
-        </form>
-
+    <h4>${quiz.question}</h4>
     `
 })
 
