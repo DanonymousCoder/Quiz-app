@@ -49,12 +49,20 @@ let questions = [
     },
 ]
 
-let quizcont = document.querySelector(".quiz-cont");
+let quizcont = document.querySelector(".container");
 
 function displayQuiz() {
     let corrects = 50;
     let wrong = 0;
     let result = 0;
+    
+    let quizArray = questions.map((quiz, index) => {
+        return `
+        
+        `
+    }
+
+    )
 };
 
 
