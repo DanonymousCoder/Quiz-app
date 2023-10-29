@@ -61,7 +61,7 @@ function displayQuiz() {
         <form action="#" id="form1">
         <h3>Quiz App</h3>
       <div class="box">
-        <h4>What is ..........................?</h4>
+        <h4>${quiz.question}</h4>
         <select name="" id="">
             <option value="" disabled>Select a value</option>
             <option value=""></option>
