@@ -70,7 +70,7 @@ function displayQuiz() {
         </select>
       </div>
       <div class="box">
-        <h4>What is ..........................?</h4>
+        <h4>${quiz.question}</h4>
         <select name="" id="">
             <option value="" disabled>Select a value</option>
             <option value=""></option>
