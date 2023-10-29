@@ -39,8 +39,8 @@ let questions = [
         answer: "Apple"
     },
     {
-        question: "Which company produces the iPhone?",
-        options : ["Apple", "Microsoft", "Android", "Samsung"],
+        question: "What is the most widely used web browser worldwide?",
+        options : ["Safari", "Edge", "Chrome", "Firefox"],
         answer: "Apple"
     },
     {
