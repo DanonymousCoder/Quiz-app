@@ -9,13 +9,14 @@ let back1 = document.getElementById("back1");
 
 let progress = document.getElementById("progress");
 
-
-
-next1.onclick = next1() {
+function next1() {
     form1.style.left = "-450px";
     form2.style.left = "40px";
     progress.style.width = "240px";
 }
+
+next1.onclick = next1() ;
+
 
 function back1() {
     form1.style.left = "40px";
