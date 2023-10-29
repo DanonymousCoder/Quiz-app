@@ -55,7 +55,7 @@ let h4 = document.querySelector(".h4");
 let quizArray = questions.map((quiz) => {
     return `
     <div class="box">
-    <h4 class="h4">What is ..........................?</h4>
+    <h4 class="h4">${quiz.question}</h4>
     <select name="" id="" style="width: 100%; padding: 10px 5px;margin: 5px 0;border: 0;border-bottom: 1px solid #999; outline: none;background: transparent;">
         <option value="" disabled>Select a value</option>
         <option value=""></option>
