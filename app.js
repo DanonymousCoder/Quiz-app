@@ -44,8 +44,8 @@ let questions = [
         answer: "Apple"
     },
     {
-        question: "Which company produces the iPhone?",
-        options : ["Apple", "Microsoft", "Android", "Samsung"],
+        question: "What programming language is known for its use in data analysis and machine learning?",
+        options : ["HTML", "JavaScript", "Python", "Java"],
         answer: "Apple"
     },
 ]
