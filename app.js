@@ -11,7 +11,7 @@ let progress = document.getElementById("progress");
 
 
 
-next1.onclick = function() {
+next1.onclick = next1() {
     form1.style.left = "-450px";
     form2.style.left = "40px";
     progress.style.width = "240px";
