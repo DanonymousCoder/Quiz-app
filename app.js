@@ -9,21 +9,18 @@ let back1 = document.getElementById("back1");
 
 let progress = document.getElementById("progress");
 
-function next1() {
+
+
+next1.onclick = function() {
     form1.style.left = "-450px";
     form2.style.left = "40px";
     progress.style.width = "240px";
 }
-
-next1.onclick = next1() ;
-
-
-function back1() {
+back1.onclick = function() {
     form1.style.left = "40px";
     form2.style.left = "450px";
     progress.style.width = "120px";
 }
-back1.onclick = back1() ;
 next2.onclick = function() {
     form2.style.left = "-450px";
     form3.style.left = "40px";
@@ -70,6 +67,6 @@ let quizArray = questions.map((quiz) => {
 })
 
 h4.innerHTML = `${quizArray.join (" ") } <div class="btn-box">
-<button type="button" id="back1" onclick="back1">Previous</button>
+<button type="button" id="back1" onclick="back1.onclick">Previous</button>
 <button type="button" id="next2">Next</button>
 </div>` ;
