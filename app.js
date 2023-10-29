@@ -57,3 +57,5 @@ let quizArray = questions.map((quiz) => {
     <h4>${questions.question}</h4>
     `
 })
+
+h4.innerHTML = quizArray;
