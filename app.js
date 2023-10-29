@@ -41,7 +41,7 @@ let questions = [
     {
         question: "What is the most widely used web browser worldwide?",
         options : ["Safari", "Edge", "Chrome", "Firefox"],
-        answer: "Apple"
+        answer: "Chrome"
     },
     {
         question: "What programming language is known for its use in data analysis and machine learning?",
