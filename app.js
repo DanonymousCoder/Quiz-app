@@ -16,12 +16,13 @@ next1.onclick = function() {
     form2.style.left = "40px";
     progress.style.width = "240px";
 }
-back1.onclick = back1() ;
+
 function back1() {
     form1.style.left = "40px";
     form2.style.left = "450px";
     progress.style.width = "120px";
-};
+}
+back1.onclick = back1() ;
 next2.onclick = function() {
     form2.style.left = "-450px";
     form3.style.left = "40px";
