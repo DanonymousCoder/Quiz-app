@@ -53,7 +53,7 @@ let questions = [
 
 let h4 = document.getElementById("form2");
 
-let quizArray = questions.map((quiz) => {
+let quizArray = questions.map((quiz, index) => {
     return `
     <div class="box">
     <p class="h4">${quiz.question}</p>
