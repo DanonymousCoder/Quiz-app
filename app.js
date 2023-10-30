@@ -70,7 +70,7 @@ let quizArray = questions.map((quiz, index) => {
 
 h4.innerHTML = `${quizArray.join (" ") } <br> <br> ${content}` ;
 
-
+let selectS = document.querySelectorAll("select")
 
 
 }
