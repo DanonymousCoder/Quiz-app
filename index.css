@@ -96,3 +96,7 @@ form button {
     border-left: 20px solid #ffad06;
 }
 
+.score {
+    display: flex;
+    align-self: flex-end;
+}
