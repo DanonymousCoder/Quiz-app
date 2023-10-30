@@ -66,7 +66,9 @@ let quizArray = questions.map((quiz) => {
     `
 })
 
-h4.innerHTML = `${quizArray.join (" ") } <div class="btn-box">
-<button type="button" id="back1" onclick="">Previous</button>
+h4.innerHTML = `${quizArray.join (" ") } <div class="btn-box" style="width: 100%;
+margin: 30px auto;
+text-align: center;">
+<button type="button" id="back1" style=" ">Previous</button>
 <button type="button" id="next2">Next</button>
 </div>` ;
