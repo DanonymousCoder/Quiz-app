@@ -52,7 +52,8 @@ let questions = [
 ]
 
 let h4 = document.getElementById("form2");
-
+function quizApp() {
+    
 let quizArray = questions.map((quiz, index) => {
     return `
     <div class="box">
@@ -66,5 +67,6 @@ let quizArray = questions.map((quiz, index) => {
   </div>
     `
 })
+}
 
 h4.innerHTML = `${quizArray.join (" ") } <br> <br> ${content}` ;
