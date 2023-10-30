@@ -115,7 +115,7 @@ selectS.forEach((select, index) =>{
       });
 });
 
-form3.innerHTML = `${quizResult.join("<br>")}<br>${contentt}`;
+form3.innerHTML = `${totScore}<br> ${quizResult.join("<br>")}<br>${contentt}`;
 
 
 }
