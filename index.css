@@ -98,4 +98,5 @@ form button {
 
 .score {
     border: 3px solid blue;
+    display: flex;
 }
