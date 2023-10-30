@@ -92,6 +92,7 @@ selectElement.forEach((select, index) => {
       document.querySelector(".result").innerHTML = `${result}/150`;
     }
   });
+});
 
 
 }
