@@ -73,9 +73,9 @@ function result() {
     
 let selectS = document.querySelectorAll("select");
 
-let quizResult = questions.map((quiz) => {
+let quizResult = questions.map((quiz, index) => {
     <div class="box">
-    <h4></h4>
+    <h4>Question </h4>
     <p class="selected">Selected answer: </p>
     <p class="correct">Correct answer: </p>
     <p class="status">Status: </p>
