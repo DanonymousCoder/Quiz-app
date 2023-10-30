@@ -92,15 +92,6 @@ selectS.forEach((select, index) => {
           result += wrong;
           document.querySelector(".result").innerHTML = `${result}/150`;
         }
-
-        return `
-      <div class="box">
-        <h4></h4>
-        <p class="selected">Selected answer: </p>
-        <p class="correct">Correct answer: </p>
-        <p class="status">Status: </p>
-      </div>
-        `
     }))
 })
 
