@@ -77,7 +77,11 @@ h4.innerHTML = `${quizArray.join (" ") } <br> <br> ${content}` ;
 function result() {
     
 let selectS = document.querySelectorAll("select");
+let selectElement = document.querySelectorAll("select");
 
+selectElement.forEach((select, index) =>{
+
+});
 let quizResult = questions.map((quiz, index) => {
     return `
     <div class="box">
