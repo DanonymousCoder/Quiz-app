@@ -57,7 +57,7 @@ let quizArray = questions.map((quiz, index) => {
     return `
     <div class="box">
     <p class="h4">${quiz.question}</p>
-    <select name="" id="select${index}" style="width: 100%; padding: 10px 5px;margin: 5px 0;border: 0;border-bottom: 1px solid #999; outline: none;background: transparent;">
+    <select name="select" id="select${index}" style="width: 100%; padding: 10px 5px;margin: 5px 0;border: 0;border-bottom: 1px solid #999; outline: none;background: transparent;">
         <option value="" disabled>Select a value</option>
         ${quiz.options.map((option) => {
             return `<option value=${option}>${option}</option>`;
