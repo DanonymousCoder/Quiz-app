@@ -79,7 +79,7 @@ function result() {
 let selectS = document.querySelectorAll("select");
 let selectElement = document.querySelectorAll("select");
 
-selectElement.forEach((select, index) =>{
+selectS.forEach((select, index) =>{
     select.addEventListener("change", (event) => {
         let selectValue = event.target.value;
         let picked = document.querySelectorAll(".selected")[index];
