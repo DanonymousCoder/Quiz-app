@@ -84,7 +84,7 @@ let quizResult = questions.map((quiz, index) => {
     `
 })
 
-form3.innerHTML = quizResult.join(" ");
+form3.innerHTML = `${quizResult.join(" ")}${content}`;
 
 selectS.forEach((select, index) => {
     select.addEventListener(("change", (event) => {
