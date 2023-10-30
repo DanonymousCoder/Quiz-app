@@ -11,8 +11,8 @@ let tops = document.getElementById("tops");
 let contenx = tops.innerHTML;
 let btn = document.getElementById("btn-box");
 let content = btn.innerHTML;
-let btnx = document.getElementById("btn-boxxx");
-let contenttt= btnx.innerHTML;
+let btx = document.getElementById("btn-boxxx");
+let contenttt= btx.innerHTML;
 let totScore = document.getElementById("score");
 
 next1.onclick = function() {
