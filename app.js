@@ -74,7 +74,7 @@ let quizArray = questions.map((quiz, index) => {
 })
 
 h4.innerHTML = `${quizArray.join (" ") } <br> <br> ${content}` ;
-function result() {
+function results() {
 
 let quizResult = questions.map((quiz, index) => {
     return `
