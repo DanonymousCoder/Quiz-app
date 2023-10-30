@@ -68,7 +68,7 @@ let quizArray = questions.map((quiz) => {
 
 h4.innerHTML = `${quizArray.join (" ") } <div class="btn-box">
 <button type="button" id="back1" onclick="
-    form1.style.left = "40px";
+    documant.getElemantByID("form1").style.left = "40px";
     form2.style.left = "450px";
     progress.style.width = "120px";
 ">Previous</button>
