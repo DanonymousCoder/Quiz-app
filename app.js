@@ -11,11 +11,9 @@ let progress = document.getElementById("progress");
 
 let btn = document.getElementById("btn-box")
 let content = btn.innerHTML;
-/*
 let btnn = document.getElementById("btn-boxx")
 let contentt= btn.innerHTML;
 let totScore = document.querySelector(".score")
-*/ 
 
 next1.onclick = function() {
     form1.style.left = "-450px";
@@ -84,12 +82,12 @@ function results() {
 let quizResult = questions.map((quiz, index) => {
     return `
         <div class="box">
-            <h4>${quiz.question}</h4>
+            <h4></h4>
             <p class="selected">Selected answer: </p>
             <p class="correct">Correct answer: </p>
             <p class="status">Status: </p>
-            <p class="score">Score </p>
           </div>
+    
     `
 })
 let selectS = document.querySelectorAll("select");
