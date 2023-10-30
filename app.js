@@ -85,7 +85,6 @@ let quizResult = questions.map((quiz, index) => {
     <p class="status">Status: </p>
   </div>
     `
-        
 let selectS = document.querySelectorAll("select");
 
 selectS.forEach((select, index) =>{
