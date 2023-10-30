@@ -10,7 +10,7 @@ let back1 = document.getElementById("back1");
 let progress = document.getElementById("progress");
 
 let btn = document.getElementById("btn-box")
-
+let content = btn.innerHTML
 
 next1.onclick = function() {
     form1.style.left = "-450px";
