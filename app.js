@@ -9,11 +9,11 @@ let back2 = document.getElementById("back1");
 let progress = document.getElementById("progress");
 let tops = document.getElementById("tops");
 let contenx = tops.innerHTML;
-let btn = document.getElementById("btn-box")
+let btn = document.getElementById("btn-box");
 let content = btn.innerHTML;
-let btnx = document.getElementById("btn-boxxx")
+let btnx = document.getElementById("btn-boxxx");
 let contenttt= btnx.innerHTML;
-let totScore = document.getElementById("score")
+let totScore = document.getElementById("score");
 
 next1.onclick = function() {
     form1.style.left = "-450px";
