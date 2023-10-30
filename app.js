@@ -58,7 +58,7 @@ function quizApp() {
     let result = 0;
 
 
-    
+
 let quizArray = questions.map((quiz, index) => {
     return `
     <div class="box">
@@ -87,10 +87,7 @@ let quizResult = questions.map((quiz, index) => {
     <p class="status">Status: </p>
   </div>
     `
-})
-
-form3.innerHTML = `${quizResult.join(" ")}<br>${content}`;
-
+    
 selectS.forEach((select, index) => {
     select.addEventListener(("change", (event) => {
         let selectValue = event.target.value;
@@ -112,6 +109,10 @@ selectS.forEach((select, index) => {
         }
     }));
 });
+})
+
+form3.innerHTML = `${quizResult.join(" ")}<br>${content}`;
+
 
 }
  return result()
