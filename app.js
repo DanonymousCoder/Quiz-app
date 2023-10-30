@@ -94,8 +94,6 @@ selectS.forEach((select, index) => {
         }
 
         return `
-        <h3>Result</h3>
-        <p class="score"></p>
       <div class="box">
         <h4></h4>
         <p class="selected">Selected answer: </p>
