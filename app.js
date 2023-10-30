@@ -7,7 +7,7 @@ let next2 = document.getElementById("next2");
 let back2 = document.getElementById("back1");
 
 let progress = document.getElementById("progress");
-let top = document.getElementById("tops");
+let tops = document.getElementById("tops");
 let contenx = top.innerHTML;
 let btn = document.getElementById("btn-box")
 let content = btn.innerHTML;
