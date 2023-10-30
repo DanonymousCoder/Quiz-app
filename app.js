@@ -74,7 +74,7 @@ function result() {
 let selectS = document.querySelectorAll("select");
 
 let quizResult = questions.map((quiz, index) => {
-    `
+    return `
     <div class="box">
     <h4>${quiz.question}</h4>
     <p class="selected">Selected answer: </p>
