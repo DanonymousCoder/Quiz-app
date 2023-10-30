@@ -103,8 +103,8 @@ selectS.forEach((select, index) => {
           result += wrong;
           document.querySelector(".result").innerHTML = `${result}/150`;
         }
-    }))
-})
+    }));
+});
 
 }
  return result()
