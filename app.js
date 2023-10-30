@@ -114,7 +114,7 @@ form3.innerHTML = `${quizResult.join(" ")}<br>${content}`;
 
 
 }
- return result()
+ return results()
 }
 
 quizApp();
