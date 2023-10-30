@@ -111,11 +111,10 @@ selectS.forEach((select, index) =>{
           result += wrong;
           document.querySelector(".score").innerHTML = `${result}/150`;
         }
-        totScore.innerHTML =`${result}/150`;
       });
 });
 
-form3.innerHTML = `${totScore}<br> ${quizResult.join("<br>")}<br>${contentt}`;
+form3.innerHTML = `${quizResult.join("<br>")}<br>${contentt}`;
 
 
 }
