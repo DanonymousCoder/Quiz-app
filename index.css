@@ -98,6 +98,7 @@ form button {
 
 .score {
     display: flex;
-    align-self: flex-end;
-    padding-left: 80%;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+    font-weight: bold;
 }
