@@ -90,7 +90,6 @@ let quizResult = questions.map((quiz, index) => {
             <p class="status">Status: </p>
             <p class="score">Score </p>
           </div>
-    
     `
 })
 let selectS = document.querySelectorAll("select");
