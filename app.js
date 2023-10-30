@@ -95,7 +95,7 @@ selectS.forEach((select, index) =>{
         let picked = document.querySelectorAll(".selected")[index];
         picked.innerHTML = `Selected answer: ${selectValue}`;
         let correct = document.querySelectorAll(".correct")[index];
-        correct.innerHTML = `Correct answer: ${quizData[index].answer}`;
+        correct.innerHTML = `Correct answer: ${questions[index].answer}`;
   
         if (quizData[index].answer === selectValue) {
           document.querySelectorAll(".status")[
