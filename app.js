@@ -13,6 +13,8 @@ let btn = document.getElementById("btn-box")
 let content = btn.innerHTML;
 let btnn = document.getElementById("btn-boxx")
 let contentt= btn.innerHTML;
+let btnnx = document.getElementById("btn-boxxx")
+let contenttt= btn.innerHTML;
 let totScore = document.getElementById("score")
 
 next1.onclick = function() {
