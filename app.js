@@ -9,6 +9,7 @@ let back1 = document.getElementById("back1");
 
 let progress = document.getElementById("progress");
 
+let btn = document.getElementById("btn-box")
 
 
 next1.onclick = function() {
