@@ -71,7 +71,16 @@ let quizArray = questions.map((quiz, index) => {
 h4.innerHTML = `${quizArray.join (" ") } <br> <br> ${content}` ;
 function result() {
     
-let selectS = document.querySelectorAll("select")
+let selectS = document.querySelectorAll("select");
+
+let quizResult = questions.map((quiz) => {
+    <div class="box">
+    <h4></h4>
+    <p class="selected">Selected answer: </p>
+    <p class="correct">Correct answer: </p>
+    <p class="status">Status: </p>
+  </div>
+})
 
 selectS.forEach((select, index) => {
     select.addEventListener(("change", (event) => {
