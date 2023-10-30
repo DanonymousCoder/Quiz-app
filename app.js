@@ -84,7 +84,7 @@ function results() {
 let quizResult = questions.map((quiz, index) => {
     return `
         <div class="box">
-            <h4></h4>
+            <h4>${quiz.question}</h4>
             <p class="selected">Selected answer: </p>
             <p class="correct">Correct answer: </p>
             <p class="status">Status: </p>
