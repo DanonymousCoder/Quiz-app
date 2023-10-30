@@ -88,6 +88,7 @@ let quizResult = questions.map((quiz, index) => {
             <p class="selected">Selected answer: </p>
             <p class="correct">Correct answer: </p>
             <p class="status">Status: </p>
+            <p class="score">Score </p>
           </div>
     
     `
