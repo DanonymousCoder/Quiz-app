@@ -109,7 +109,7 @@ selectS.forEach((select, index) =>{
         } else {
           document.querySelectorAll(".status")[index].innerHTML = `Status: Wrong`;
           result += wrong;
-          document.querySelector(".result").innerHTML = `${result}/150`;
+          document.querySelector(".score").innerHTML = `${result}/150`;
         }
         totScore.innerHTML =`${result}/150`;
       });
