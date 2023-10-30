@@ -107,7 +107,7 @@ selectS.forEach((select, index) => {
 })
 
 }
-return result()
+ result()
 }
 
 quizApp();
