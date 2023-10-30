@@ -78,38 +78,16 @@ function results() {
 
 let quizResult = questions.map((quiz, index) => {
     return `
-    <div class="box">
-    <h4></h4>
-    <p class="selected">Selected answer: </p>
-    <p class="correct">Correct answer: </p>
-    <p class="status">Status: </p>
-  </div>
+        <div class="box">
+            <h4></h4>
+            <p class="selected">Selected answer: </p>
+            <p class="correct">Correct answer: </p>
+            <p class="status">Status: </p>
+          </div>
     
     `
-let selectS = document.querySelectorAll("select");
-
-selectS.forEach((select, index) =>{
-    select.addEventListener("change", (event) => {
-        let selectValue = event.target.value;
-        let picked = document.querySelectorAll(".selected")[index];
-        picked.innerHTML = `Selected answer: ${selectValue}`;
-        let correct = document.querySelectorAll(".correct")[index];
-        correct.innerHTML = `Correct answer: ${quizData[index].answer}`;
-  
-        if (quizData[index].answer === selectValue) {
-          document.querySelectorAll(".status")[
-            index
-          ].innerHTML = `Status: Correct`;
-          result += corrects;
-          document.querySelector(".result").innerHTML = `${result}/150`;
-        } else {
-          document.querySelectorAll(".status")[index].innerHTML = `Status: Wrong`;
-          result += wrong;
-          document.querySelector(".result").innerHTML = `${result}/150`;
-        }
-      });
 });
-})
+});
 
 // form3.innerHTML = `${quizResult.join(" ")}<br>${content}`;
 
