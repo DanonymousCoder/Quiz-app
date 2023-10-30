@@ -53,6 +53,11 @@ let questions = [
 
 let h4 = document.getElementById("form2");
 function quizApp() {
+    let corrects = 50;
+    let wrong = 0;
+    let result = 0;
+
+
     
 let quizArray = questions.map((quiz, index) => {
     return `
