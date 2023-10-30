@@ -86,8 +86,7 @@ let quizResult = questions.map((quiz, index) => {
           </div>
     
     `
-});
-});
+})
 
 // form3.innerHTML = `${quizResult.join(" ")}<br>${content}`;
 
