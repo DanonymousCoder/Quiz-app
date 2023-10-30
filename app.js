@@ -11,9 +11,11 @@ let progress = document.getElementById("progress");
 
 let btn = document.getElementById("btn-box")
 let content = btn.innerHTML;
+/*
 let btnn = document.getElementById("btn-boxx")
 let contentt= btn.innerHTML;
 let totScore = document.querySelector(".score")
+*/ 
 
 next1.onclick = function() {
     form1.style.left = "-450px";
