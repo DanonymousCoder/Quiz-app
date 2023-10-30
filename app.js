@@ -75,9 +75,18 @@ let quizArray = questions.map((quiz, index) => {
 
 h4.innerHTML = `${quizArray.join (" ") } <br> <br> ${content}` ;
 function result() {
-    
+
+let quizResult = questions.map((quiz, index) => {
+    return `
+    <div class="box">
+    <h4>${quiz.question}</h4>
+    <p class="selected">Selected answer: </p>
+    <p class="correct">Correct answer: </p>
+    <p class="status">Status: </p>
+  </div>
+    `
+        
 let selectS = document.querySelectorAll("select");
-let selectElement = document.querySelectorAll("select");
 
 selectS.forEach((select, index) =>{
     select.addEventListener("change", (event) => {
@@ -100,15 +109,6 @@ selectS.forEach((select, index) =>{
         }
       });
 });
-let quizResult = questions.map((quiz, index) => {
-    return `
-    <div class="box">
-    <h4>${quiz.question}</h4>
-    <p class="selected">Selected answer: </p>
-    <p class="correct">Correct answer: </p>
-    <p class="status">Status: </p>
-  </div>
-    `
 })
 
 form3.innerHTML = `${quizResult.join(" ")}<br>${content}`;
