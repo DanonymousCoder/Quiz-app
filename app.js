@@ -12,7 +12,7 @@ let contenx = tops.innerHTML;
 let btn = document.getElementById("btn-box");
 let content = btn.innerHTML;
 let btx = document.getElementById("btn-boxxx");
-let contenttt= btx.innerHTML;
+let contex= btx.innerHTML;
 let totScore = document.getElementById("score");
 
 next1.onclick = function() {
