@@ -113,7 +113,7 @@ selectS.forEach((select, index) =>{
       });
 });
 
-form3.innerHTML = `${quizResult.join(" ")}<br>${contentt}`;
+form3.innerHTML = `${quizResult.join("<br>")}<br>${contentt}`;
 
 
 }
