@@ -106,11 +106,11 @@ selectS.forEach((select, index) =>{
             index
           ].innerHTML = `Status: Correct`;
           result += corrects;
-          document.querySelector(".score").innerHTML = `${result}/50`;
+          document.querySelector(".score").innerHTML = `${result}/150`;
         } else {
           document.querySelectorAll(".status")[index].innerHTML = `Status: Wrong`;
           result += wrong;
-          document.querySelector(".score").innerHTML = `${result}/50`;
+          document.querySelector(".score").innerHTML = `${result}/150`;
         }
       });
 });
