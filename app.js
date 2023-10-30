@@ -72,6 +72,9 @@ h4.innerHTML = `${quizArray.join (" ") } <br> <br> ${content}` ;
 
 let selectS = document.querySelectorAll("select")
 
+selectS.forEach((select, index) => {
+    
+})
 
 }
 
