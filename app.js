@@ -69,6 +69,31 @@ let quizArray = questions.map((quiz, index) => {
 })
 
 h4.innerHTML = `${quizArray.join (" ") } <br> <br> ${content}` ;
+
+let selectElement = document.querySelectorAll("select");
+
+selectElement.forEach((select, index) => {
+  select.addEventListener("change", (event) => {
+    let selectValue = event.target.value;
+    let picked = document.querySelectorAll(".selected")[index];
+    picked.innerHTML = `Selected answer: ${selectValue}`;
+    let correct = document.querySelectorAll(".correct")[index];
+    correct.innerHTML = `Correct answer: ${quizData[index].answer}`;
+
+    if (quizData[index].answer === selectValue) {
+      document.querySelectorAll(".status")[
+        index
+      ].innerHTML = `Status: Correct`;
+      result += corrects;
+      document.querySelector(".result").innerHTML = `${result}/150`;
+    } else {
+      document.querySelectorAll(".status")[index].innerHTML = `Status: Wrong`;
+      result += wrong;
+      document.querySelector(".result").innerHTML = `${result}/150`;
+    }
+  });
+
+
 }
 
 quizApp();
