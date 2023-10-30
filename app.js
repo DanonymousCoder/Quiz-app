@@ -27,7 +27,7 @@ function snext2() {
     form3.style.left = "40px";
     progress.style.width = "360px";
 }
-back2.onclick = function() {
+function back() {
     form2.style.left = "40px";
     form3.style.left = "450px";
     progress.style.width = "240px";
