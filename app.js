@@ -5,7 +5,7 @@ let form3 = document.getElementById("form3");
 
 let next1 = document.getElementById("next1");
 let next2 = document.getElementById("next2");
-let back12 = document.getElementById("back1");
+let back2 = document.getElementById("back1");
 
 let progress = document.getElementById("progress");
 
