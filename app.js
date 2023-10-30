@@ -69,4 +69,4 @@ let quizArray = questions.map((quiz, index) => {
 })
 }
 
-h4.innerHTML = `${quizArray.join (" ") } <br> <br> ${content}` ;
+h4.innerHTML = `${quizApp.join (" ") } <br> <br> ${content}` ;
