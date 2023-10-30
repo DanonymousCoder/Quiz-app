@@ -22,7 +22,7 @@ function backone() {
     form2.style.left = "450px";
     progress.style.width = "120px";
 }
-function next2() {
+function nexttwo() {
     form2.style.left = "-450px";
     form3.style.left = "40px";
     progress.style.width = "360px";
