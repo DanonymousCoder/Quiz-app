@@ -84,6 +84,8 @@ let quizResult = questions.map((quiz, index) => {
     `
 })
 
+form3.innerHTML = quizResult;
+
 selectS.forEach((select, index) => {
     select.addEventListener(("change", (event) => {
         let selectValue = event.target.value;
